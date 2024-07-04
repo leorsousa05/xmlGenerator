@@ -21,6 +21,7 @@ function createSitemap(urls) {
 	urls.forEach(url => {
 		sitemap += '  <url>\n';
 		sitemap += `    <loc>${url}</loc>\n`;
+		sitemap += '    <priority>1.0</priority>\n';
 		sitemap += '  </url>\n';
 	});
 
