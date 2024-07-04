@@ -1,5 +1,7 @@
+const { handleCliOptions } = require("./handlers/userOptionsHandler");
+
 function main() {
-	console.log("Hello!");
+	handleCliOptions();
 }
 
 main();
